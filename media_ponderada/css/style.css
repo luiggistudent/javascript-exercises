@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(156, 250, 78);
+}
+
+.main-title {
+    margin: 15px 0 15px 0;
+    text-align: center;
+}
+
+.score-field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.score-title {
+    margin-bottom: 6px;
+}
+
+input {
+    margin: 7px 0 11px 0;
+    padding: 5px;
+    border-radius: 2px;
+    border: solid rgb(47, 255, 175) 1px;
+}
+
+#send-btn {
+    padding: 15px;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+#send-btn:hover {
+    background-color: rgba(30, 255, 0, 0.8);
+}
