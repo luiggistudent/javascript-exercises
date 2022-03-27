@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 228, 230);
+}
+
+#main-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(68, 63, 63);
+    margin: 15px 0 30px 0;
+    text-align: center;
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+label {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input {
+    padding: 7px;
+    font-size: 19px;
+    border-radius: 4px;
+}
+
+#send-btn {
+    width: 85px;
+    background-color: violet;
+}
+
+#send-btn:hover {
+    background-color: rgb(206, 0, 137);
+    cursor: pointer;
+}
